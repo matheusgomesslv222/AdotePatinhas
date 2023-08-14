@@ -1,0 +1,14 @@
+.ButtonsCategories{
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+    margin-top: 20px;
+}
+.ButtonsCategories button{
+    width: 60px;
+    height: 60px;
+    background-color: #A9A9A9;
+    border: none;
+    border-radius: 50%;
+    margin: 0 10px;
+}
