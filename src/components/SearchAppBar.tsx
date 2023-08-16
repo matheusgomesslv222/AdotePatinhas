@@ -7,8 +7,8 @@ import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
-import styles from './SearchAppBar.module.css'
-import Grid from '@mui/material/Grid'
+import styles from './SearchAppBar.module.css';
+import Grid from '@mui/material/Grid';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -52,12 +52,16 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
+
 export default function SearchAppBar() {
+    const customAppBarStyle = {
+      backgroundColor : '#8294C4' ,
+    }
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" className={styles.SearchAppBar}>
+    <Box sx={{ flexGrow: 1 }} className={styles.Box}>
+      <AppBar position="static" className={styles.SearchAppBar} style={customAppBarStyle}>
         <Grid container className={styles.Grid}>
-          <Toolbar>
+          <Toolbar className={styles.Toolbar}>
             <IconButton
               size="large"
               edge="start"
@@ -71,8 +75,7 @@ export default function SearchAppBar() {
               variant="h6"
               noWrap
               component="div"
-              sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-            >
+              sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
               <img src="/img/logo.png" />
             </Typography>
             <Search className={styles.Search}>

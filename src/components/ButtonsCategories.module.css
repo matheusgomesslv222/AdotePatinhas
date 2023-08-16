@@ -1,14 +1,27 @@
 .ButtonsCategories{
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    flex-wrap: wrap; */
-    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
 .ButtonsCategories button{
     width: 60px;
     height: 60px;
-    background-color: #A9A9A9;
+    background-color: #8294C4;
     border: none;
-    border-radius: 50%;
-    margin: 0 10px;
+    border-radius: 50px;
+    margin: 0 5px;
+    cursor: pointer;
 }
+.ButtonsCategories button:hover{
+    background-color: #ACB1D6;
+}
+.ButtonsCategories img{
+    width: 40px;
+}
+@media (min-width: 480px) {
+    .ButtonsCategories{
+      margin:40px;  
+    }
+}
+

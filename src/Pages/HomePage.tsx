@@ -1,8 +1,8 @@
-import SearchBar from '../components/SearchBar';
 import Carousel from '../components/Carousel';
 import styles from './HomePage.module.css';
 import ButtonsCategories from '../components/ButtonsCategories';
 import SearchAppBar from '../components/SearchAppBar';
+import CardAnimals from '../components/CardAnimals';
 
 export default function HomePage() {
   return (
@@ -10,6 +10,7 @@ export default function HomePage() {
       <SearchAppBar/>
       <Carousel/>
       <ButtonsCategories/>
+      <CardAnimals/>
     </div>
   )
 }

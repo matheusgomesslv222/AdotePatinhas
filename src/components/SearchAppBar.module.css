@@ -1,20 +1,27 @@
-.SearchAppBar{
-    background-color: #A9A9A9;
-    margin: 5px 0;
-    border-radius: 8px;
+.Toolbar{
+    height: 100%;
+    width: 100%;
 }
-.Grid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.SearchAppBar{
+    padding: 0 200px;
 }
 .SearchAppBar img{
     width: 100px;
 }
-
 .Search{
+    box-shadow: none;
     width: 20%;
     height: 40px;
     display: flex;
     justify-content: flex-end;
+}
+@media (max-width: 1336px) {
+    .SearchAppBar{
+       padding: 0;
+    }
+}
+@media (max-width: 1000px){
+    .SearchAppBar img {
+        display: none;
+    }
 }
