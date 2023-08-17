@@ -3,20 +3,25 @@
     width: 100%;
 }
 .SearchAppBar{
+    border-radius: 8px;
+    margin-bottom: 3px;
     padding: 0 200px;
+    height: 70px;
 }
 .SearchAppBar img{
     width: 100px;
 }
 .Search{
-    box-shadow: none;
     width: 20%;
     height: 40px;
     display: flex;
     justify-content: flex-end;
 }
-@media (max-width: 1336px) {
+@media (min-width: 1336px) {
     .SearchAppBar{
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
        padding: 0;
     }
 }

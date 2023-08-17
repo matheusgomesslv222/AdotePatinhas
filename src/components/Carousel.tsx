@@ -4,9 +4,9 @@ import 'slick-carousel/slick/slick-theme.css';
 import styles from './Carousel.module.css'
 
 const images = [
-    'https://source.unsplash.com/random/400x300/',
-    'https://source.unsplash.com/random/400x300/',
-    'https://source.unsplash.com/random/400x300/',
+    '/img/BannerPet.png',
+    '/img/BannerBrinquedos.png',
+    '/img/BannerPet.png',
     // Adicione mais URLs de imagens aqui
   ];
 
@@ -23,7 +23,8 @@ export default function Carousel() {
         prevArrow: <></>,
       };
   return (
-    <div className={styles.Carousel}>
+    <div className={styles.Container}>
+      <div className={styles.Carousel}>
         <Slider {...settings}>
             {images.map((image, index)=>(
                 <div className={styles.Slider} key={index}>
@@ -31,6 +32,7 @@ export default function Carousel() {
                 </div>
             ))}
         </Slider>
+    </div>
     </div>
   )
 }
