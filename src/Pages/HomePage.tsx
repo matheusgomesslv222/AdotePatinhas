@@ -1,21 +1,23 @@
-import Carousel from '../components/Carousel';
+import Carousel from '../components/HomePage/Carousel';
 import styles from './HomePage.module.css';
-import ButtonsCategories from '../components/ButtonsCategories';
-import SearchAppBar from '../components/SearchAppBar';
-import CardAnimals from '../components/CardAnimals';
-import CardList from '../components/CardList';
+import ButtonsCategories from '../components/HomePage/ButtonsCategories';
+import SearchAppBar from '../components/HomePage/SearchAppBar';
+import CardAnimals from '../components/HomePage/CardAnimals';
+import CardList from '../components/HomePage/CardList';
+import Footer from '../components/Footer/Footer'
 
 export default function HomePage() {
   return (
     <div className={styles.HomePage}>
-      <SearchAppBar/>
-      <Carousel/>
-      <img src="" alt="" />
-      <ButtonsCategories/>
-      <h2>Top Adoçoes</h2>
-      <CardAnimals/>
-      <CardList/>
-
+        <SearchAppBar />
+      <div className={styles.Main}>
+        <Carousel/>
+        <ButtonsCategories/>
+        <h2>Top Adoçoes</h2>
+        <CardAnimals/>
+        <CardList/>
+      </div>
+        <Footer/>
     </div>
   )
 }

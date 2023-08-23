@@ -7,7 +7,7 @@ Isabella Martins de Souza | RA : 202302378961
 
 Felipe Augusto Teixeira Moreira | RA : 202302382207
 
-Julio Mathias Toledo da Silveira Z RA :202302379125
+Julio Mathias Toledo da Silveira | RA :202302379125
 
 ## Descrição do Projeto
 

@@ -4,9 +4,8 @@
 }
 
 @media (min-width: 1000px) {
-    .HomePage{
+    .Main{
         width: 70%;
         margin: 0 auto;
-
     }
 }
