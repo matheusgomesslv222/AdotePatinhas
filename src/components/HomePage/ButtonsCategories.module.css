@@ -1,0 +1,28 @@
+.ButtonsCategories{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.ButtonsCategories button{
+    width: 60px;
+    height: 60px;
+    background-color: #8294C4;
+    border: none;
+    border-radius: 50px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.ButtonsCategories button:hover{
+    background-color: #ACB1D6;
+}
+.ButtonsCategories img{
+    width: 40px;
+}
+@media (min-width: 480px) {
+    .ButtonsCategories{
+        margin-top: 500px;
+      margin:40px;  
+    }
+}
+

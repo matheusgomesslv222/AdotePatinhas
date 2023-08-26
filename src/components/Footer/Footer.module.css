@@ -1,0 +1,12 @@
+.Footer{
+    width: 100%;
+    height: auto;
+    background-color: #8294C4;
+    padding: 2%;
+    color: white;
+    display: flex;
+    gap: 25px;
+}
+.Footer img{
+    width: 80px;
+}

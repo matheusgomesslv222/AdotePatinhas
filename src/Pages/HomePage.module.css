@@ -1,0 +1,11 @@
+.HomePage{
+    background-color: #DBDFEA;
+    height: 100vh;
+}
+
+@media (min-width: 1000px) {
+    .Main{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
