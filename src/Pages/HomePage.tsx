@@ -7,6 +7,7 @@ import CardList from '../components/HomePage/CardList';
 import Footer from '../components/Footer/Footer'
 
 export default function HomePage() {
+  //Código de estruturas da HomePage
   return (
     <div className={styles.HomePage}>
         <SearchAppBar />

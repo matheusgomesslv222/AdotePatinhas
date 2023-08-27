@@ -1,5 +1,6 @@
 import styles from "./ButtonsCategories.module.css"
 export default function ButtonsCategories() {
+    //
   return (
     <>
         <div className={styles.ButtonsCategories}>
