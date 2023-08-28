@@ -1,17 +1,19 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css'
 import HomePage from './Pages/HomePage.tsx';
 import LoginPage from './Pages/LoginPage.tsx';
+import AboutPage from './Pages/AboutPage.tsx';
 
 function App() {
   // Código que renderiza as rotas de cada pagina 
   return (
-      <HashRouter>  
+      <BrowserRouter>  
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/login" element={<LoginPage/>} />
+          <Route path="/sobre" element={<AboutPage/>} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
   )
 }
 
